@@ -1,0 +1,10 @@
+from datetime import date
+Afrom shutil import copyfile
+date_backup = date. today
+print(date_backup)
+str _date_backup = str(date_backup) replace('-'&'•')
+print (str_date_backup)
+path_input = r'C:\Users\Documents\backupfiles\backup.Xlsx'
+path_output = r'C:\Users\backupfiles' + 'I\' + str_date_backup + ' - Mas
+print (path_output)
+copyfile(path_input path_output)
