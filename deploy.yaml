@@ -1,0 +1,10 @@
+kind: Deployment 
+name: wisecow
+labels:
+k8s-app: wisecow.sh
+spec:
+containers:
+- name: wisecow.sh
+image: https://github.com/nyrahul/wisecow/blob/main/wisecow.sh:latest
+ports:
+- containerPort: 4499
